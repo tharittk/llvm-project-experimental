@@ -7,6 +7,10 @@ add_llvm_target(H2BLBCodeGen # <-- target to build
     H2BLBDesc # <-- it will look for LLVMH2BLBDesc
     H2BLBInfo
     Support
+    TextAPI
+    CodeGen
+    Target
+    Core
 
     ADD_TO_COMPONENT # <-- add to llvm component of the same name
     H2BLB
